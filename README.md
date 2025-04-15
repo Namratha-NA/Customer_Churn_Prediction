@@ -52,7 +52,6 @@ We used publicly available telecom churn datasets from [Kaggle](https://www.kagg
    - Confusion Matrix, AUC, Accuracy, Precision, Recall, F1-score
    - Binary and Multiclass Evaluators
    - Addressed class imbalance using stratified sampling
-   - 
 
 ## Model Performance
 
