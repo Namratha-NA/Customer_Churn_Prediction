@@ -2,7 +2,6 @@
 
 This repository contains an end-to-end solution for predicting customer churn in the telecom sector using **PySpark** and **Apache Spark's MLlib**. The goal is to help businesses proactively identify customers likely to churn and implement data-driven retention strategies.
 
----
 
 ## Overview
 
@@ -13,7 +12,6 @@ Key highlights:
 - Implementation of ML algorithms like Naive Bayes, Random Forest, and Gradient Boosted Trees
 - Evaluation using metrics such as Accuracy, AUC, Precision, Recall, and F1-Score
 
----
 
 ## Tech Stack
 
@@ -22,7 +20,6 @@ Key highlights:
 - **Python**
 - **Pandas / Seaborn / Matplotlib** (for EDA and correlation visualization)
 
----
 
 ## Dataset
 
@@ -34,7 +31,6 @@ We used publicly available telecom churn datasets from [Kaggle](https://www.kagg
 - Customer service calls
 - Churn status (target variable)
 
----
 
 ## Pipeline Structure
 
@@ -56,8 +52,7 @@ We used publicly available telecom churn datasets from [Kaggle](https://www.kagg
    - Confusion Matrix, AUC, Accuracy, Precision, Recall, F1-score
    - Binary and Multiclass Evaluators
    - Addressed class imbalance using stratified sampling
-
----
+   - 
 
 ## Model Performance
 
@@ -69,7 +64,6 @@ We used publicly available telecom churn datasets from [Kaggle](https://www.kagg
 
 Gradient Boosted Trees performed best overall and were recommended for deployment.
 
----
 
 ## Future Enhancements
 
@@ -79,7 +73,6 @@ Gradient Boosted Trees performed best overall and were recommended for deploymen
 - Deploy the model as an API using Flask or FastAPI
 - Enable live monitoring of churn predictions on streaming data
 
----
 
 ## Resources
 
@@ -92,7 +85,6 @@ Gradient Boosted Trees performed best overall and were recommended for deploymen
   - Jupyter Notebook / Google Colab (for prototyping)
   - Pandas / Seaborn / Matplotlib
 
----
 
 ## Contributions
 
